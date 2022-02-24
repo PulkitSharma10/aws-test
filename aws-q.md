@@ -5,7 +5,7 @@
 - [ ] cost
 - [ ] ease of maintenance vs. granularity of control
 - [ ] the current storage engine used by the application, such as InnoDB or MyISAM
-- [ ] all of these answers
+- [ x] all of these answers
 
 #### Q2. Which database is a NoSQL database type that can quickly store and retrieve key-value pairs?
 
