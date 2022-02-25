@@ -112,7 +112,7 @@
 ```
 - [ ] The primary key should be a partition key of the title field.
 - [ ] The primary key should be the title field and the partition key should be the genres field.
-- [ ] The primary key should be created as a completely unique value, such a sequential numerical list of movie IDs. The partition key should be title field for fast lookup.
+- [x] The primary key should be created as a completely unique value, such a sequential numerical list of movie IDs. The partition key should be title field for fast lookup.
 - [ ] The primary key should be a composite key comprised of a partition key on the title field and a sort key on the year field.
 
 #### Q16. What data store provides a simple and quick way of storing basic user attributes in an object-based format?
@@ -263,7 +263,7 @@ FlowLog:
 
 #### Q33. Application Load Balancer can route traffic to many target groups based upon several conditions. Which of these use cases is not supported by Application Load Balancer?
 
-- [ ] An Http POST query string of ? action=createuser can be routed to a target group for an ECS service.
+- [x] An Http POST query string of ? action=createuser can be routed to a target group for an ECS service.
 - [ ] A request with a HTTP header of X-Requested-With: staging can be routed to a target group for an ECS service in your staging environment.
 - [ ] Source IPs matching 192.0.2.0/24 on a listener port of 1433 can be routed to a target group for an RDS for SQL Server cluster.
 - [ ] A path of /signup\* can be routed to a target group for a Lambda function that processes new user registrations.
@@ -317,7 +317,7 @@ FlowLog:
 
 #### Q41. You have a UDP load balancer that is created by an instance that is running an NGINX proxy. Your application performance management (APM) solution can detect failures in your load balancer instance and transfer the Elastic IP to a passive standby instance. Using the AWS CLI, which script do you program into your APM to move the Elastic IP?
 
-- [ ] A
+- [x] A
 
 ```
 aws ec2 disassociate-address --association-id eipassoc-2bebb712
@@ -411,7 +411,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 ![image](assets/03.png)
 
 - [ ] The outbound rules block UDP port 53, so the server will not be able to resolve any DNS lookups.
-- [ ] The outbound rules do not allow for HTTP traffic to leave the instance, so inbound HTTP requests will fail because the clients will never get HTTP responses.
+- [x] The outbound rules do not allow for HTTP traffic to leave the instance, so inbound HTTP requests will fail because the clients will never get HTTP responses.
 - [ ] The incoming SSH port should not be open to the public. Limit SSH to a single IP address or IP range of controlled addressed, or use a VPN to access the VPC for this server.
 - [ ] The all incoming TCP ports are exposed, which overrides the HTTP and SSH rules and exposes all TCP ports to the public internet.
 
@@ -452,7 +452,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q56. Your application performance management (APM) system can read the status of your CloudWatch monitors and perform scripted actions. When the CloudWatch metric StatusCheckFailed enters a failed state (a value of 1), you would like your APM to automatically repair the instance. Which script do you use?
 
-- [ ] A
+- [x] A
 
 ```
 aws ec2 stop-instances --instance-ids i-0aa41e8086446e8f9
