@@ -273,7 +273,7 @@ FlowLog:
 - [x] creates a cloud-based network to interconnect a set of virtual servers and appliances
 - [ ] creates a secure tunnel between two networks
 - [ ] creates a shared storage plane for application data to be shared across multiple instances.
-- [] creates a private network that is completely isolated from the public internet.
+- [ ] creates a private network that is completely isolated from the public internet.
 
 #### Q35. Can you lose the public IP address associated with your EC2 instance?
 
